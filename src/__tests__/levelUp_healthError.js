@@ -1,6 +1,6 @@
-import Character from '../character';
+import Bowerman from '../bowerman';
 
-const testing = new Character('Bowerman', 'Bowman');
+const testing = new Bowerman('Bowerman');
 test('testing the "levelUp" function for an error', () => {
   testing.health = 0;
   function err() {
